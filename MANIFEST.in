@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include aramys *.css
+recursive-include aramys *.csv
+recursive-include aramys *.html
+recursive-include aramys *.ico
+recursive-include aramys *.js
+recursive-include aramys *.json
+recursive-include aramys *.md
+recursive-include aramys *.png
+recursive-include aramys *.py
+recursive-include aramys *.svg
+recursive-include aramys *.txt
+recursive-exclude aramys *.pyc
