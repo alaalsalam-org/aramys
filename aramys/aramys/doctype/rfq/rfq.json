@@ -1,0 +1,1659 @@
+{
+ "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-07-08 04:07:46.170676",
+ "default_view": "List",
+ "description": "Potential Sales Deal",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "editable_grid": 1,
+ "email_append_to": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "opportunity_from",
+  "party_name",
+  "customer_name",
+  "opportunity_name",
+  "status",
+  "bd_cl_dt",
+  "column_break0",
+  "opportunity_type",
+  "source",
+  "opportunity_owner",
+  "rfq_cat",
+  "rfq_type",
+  "quotation",
+  "sales_stage",
+  "rfp",
+  "in_the_pipline",
+  "gn_stage",
+  "expected_closing",
+  "probability",
+  "organization_details_section",
+  "no_of_employees",
+  "annual_revenue",
+  "customer_group",
+  "column_break_23",
+  "industry",
+  "market_segment",
+  "website",
+  "column_break_31",
+  "city",
+  "state",
+  "country",
+  "territory",
+  "section_break_14",
+  "currency",
+  "column_break_36",
+  "conversion_rate",
+  "column_break_17",
+  "opportunity_amount",
+  "base_opportunity_amount",
+  "more_info",
+  "company",
+  "campaign",
+  "transaction_date",
+  "column_break1",
+  "language",
+  "amended_from",
+  "title",
+  "first_response_time",
+  "lost_detail_section",
+  "lost_reasons",
+  "order_lost_reason",
+  "column_break_56",
+  "competitors",
+  "primary_contact_section",
+  "contact_person",
+  "job_title",
+  "column_break_54",
+  "contact_email",
+  "contact_mobile",
+  "column_break_22",
+  "whatsapp",
+  "phone",
+  "phone_ext",
+  "t_r",
+  "tracking_record",
+  "address_contact_section",
+  "address_html",
+  "customer_address",
+  "address_display",
+  "column_break3",
+  "contact_html",
+  "contact_display",
+  "items_section",
+  "items",
+  "section_break_32",
+  "base_total",
+  "column_break_33",
+  "total",
+  "activities_tab",
+  "open_activities_html",
+  "all_activities_section",
+  "dashboard_tab",
+  "all_activities_html",
+  "notes_tab",
+  "notes_html",
+  "notes",
+  "business_line_page",
+  "deal_open",
+  "date_",
+  "sc_1",
+  "acount_manager_name",
+  "sb_1",
+  "customer_details",
+  "customer_nam",
+  "location",
+  "scope",
+  "size",
+  "sc_2",
+  "user",
+  "business",
+  "relation",
+  "currenc",
+  "commercial_contact",
+  "n",
+  "co",
+  "e",
+  "co_1",
+  "p",
+  "technical_contact",
+  "nn",
+  "co_2",
+  "ee",
+  "co_3",
+  "pp",
+  "sc23",
+  "sc24",
+  "rfq_no",
+  "txt1",
+  "txt2",
+  "txt3",
+  "txt4",
+  "txt5",
+  "txt6",
+  "txt7",
+  "col12",
+  "txt8",
+  "txt9",
+  "txt10",
+  "txt11",
+  "txt12",
+  "txt13",
+  "txt14",
+  "txt15",
+  "col13",
+  "txt16",
+  "txt17",
+  "txt18",
+  "txt19",
+  "txt20",
+  "txt21",
+  "txt22",
+  "txt23",
+  "go_tab",
+  "deadlines",
+  "q1",
+  "q2",
+  "c1",
+  "q_1",
+  "q_2",
+  "c2",
+  "q__1",
+  "q__2",
+  "account_value",
+  "q3",
+  "q4",
+  "c3",
+  "q_3",
+  "q_4",
+  "c4",
+  "q__3",
+  "q__4",
+  "advanced_warnings",
+  "q5",
+  "q6",
+  "q7",
+  "c5",
+  "q_5",
+  "q_6",
+  "q_7",
+  "c6",
+  "q__5",
+  "q__6",
+  "q__7",
+  "decision_makers",
+  "q8",
+  "q9",
+  "c7",
+  "q_8",
+  "q_9",
+  "c8",
+  "q__8",
+  "q__9",
+  "discovery_process",
+  "q10",
+  "q11",
+  "c9",
+  "q_10",
+  "q_11",
+  "c10",
+  "q__10",
+  "q__11",
+  "fit",
+  "q12",
+  "c11",
+  "q_12",
+  "c12",
+  "q__12",
+  "competition",
+  "q13",
+  "q14",
+  "q15",
+  "q16",
+  "c20",
+  "q_13",
+  "q_14",
+  "q_15",
+  "q_16",
+  "c13",
+  "q__13",
+  "q__14",
+  "q__15",
+  "q__16",
+  "decision_criteria",
+  "q17",
+  "q18",
+  "c14",
+  "q_17",
+  "q_18",
+  "c15",
+  "q__17",
+  "q__18",
+  "red_flags",
+  "q19",
+  "c16",
+  "q_19",
+  "c17",
+  "q__19",
+  "solution_presentation",
+  "q20",
+  "q21",
+  "c18",
+  "q_20",
+  "q_21",
+  "c19",
+  "q__20",
+  "test_1",
+  "column_break_be1tl",
+  "q__21",
+  "tota",
+  "go_no",
+  "proposals",
+  "technical_offer",
+  "commercial_offer"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Series",
+   "no_copy": 1,
+   "oldfieldname": "naming_series",
+   "oldfieldtype": "Select",
+   "options": "CRM-RFQ-.YYYY.-",
+   "reqd": 1,
+   "set_only_once": 1
+  },
+  {
+   "default": "Customer",
+   "fieldname": "opportunity_from",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Opportunity From",
+   "oldfieldname": "enquiry_from",
+   "oldfieldtype": "Select",
+   "options": "DocType",
+   "print_hide": 1,
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "party_name",
+   "fieldtype": "Dynamic Link",
+   "in_standard_filter": 1,
+   "label": "Party",
+   "oldfieldname": "customer",
+   "oldfieldtype": "Link",
+   "options": "opportunity_from",
+   "print_hide": 1,
+   "reqd": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "in_global_search": 1,
+   "label": "Customer Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "no_copy": 1,
+   "oldfieldname": "status",
+   "oldfieldtype": "Select",
+   "options": "Lead\nPotential\nWaiting for KOM\nOfficial\nBidding\nBid submitted.\nWin\nLost\nClosed",
+   "print_hide": 1,
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break0",
+   "fieldtype": "Column Break",
+   "oldfieldtype": "Column Break",
+   "width": "50%"
+  },
+  {
+   "default": "Sales",
+   "fieldname": "opportunity_type",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "in_list_view": 1,
+   "label": "Opportunity Type",
+   "oldfieldname": "enquiry_type",
+   "oldfieldtype": "Select",
+   "options": "Opportunity Type"
+  },
+  {
+   "fieldname": "source",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Source",
+   "oldfieldname": "source",
+   "oldfieldtype": "Select",
+   "options": "Lead Source"
+  },
+  {
+   "fieldname": "opportunity_owner",
+   "fieldtype": "Link",
+   "label": "Opportunity Owner",
+   "options": "User"
+  },
+  {
+   "default": "Prospecting",
+   "fieldname": "sales_stage",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Sales Stage",
+   "options": "Sales Stage"
+  },
+  {
+   "fieldname": "expected_closing",
+   "fieldtype": "Date",
+   "hidden": 1,
+   "label": "Expected Closing Date"
+  },
+  {
+   "default": "100",
+   "fieldname": "probability",
+   "fieldtype": "Percent",
+   "hidden": 1,
+   "label": "Probability (%)"
+  },
+  {
+   "fieldname": "organization_details_section",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Organization"
+  },
+  {
+   "fieldname": "no_of_employees",
+   "fieldtype": "Select",
+   "label": "No of Employees",
+   "options": "1-10\n11-50\n51-200\n201-500\n501-1000\n1000+"
+  },
+  {
+   "fieldname": "annual_revenue",
+   "fieldtype": "Currency",
+   "label": "Annual Revenue"
+  },
+  {
+   "depends_on": "eval:doc.opportunity_from=='Customer' && doc.party_name",
+   "fieldname": "customer_group",
+   "fieldtype": "Link",
+   "label": "Customer Group",
+   "oldfieldname": "customer_group",
+   "oldfieldtype": "Link",
+   "options": "Customer Group",
+   "print_hide": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "industry",
+   "fieldtype": "Link",
+   "label": "Industry",
+   "options": "Industry Type"
+  },
+  {
+   "fieldname": "market_segment",
+   "fieldtype": "Link",
+   "label": "Market Segment",
+   "options": "Market Segment"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website"
+  },
+  {
+   "fieldname": "column_break_31",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "territory",
+   "fieldtype": "Link",
+   "label": "Territory",
+   "options": "Territory",
+   "print_hide": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Opportunity Value"
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "column_break_36",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "conversion_rate",
+   "fieldtype": "Float",
+   "label": "Exchange Rate"
+  },
+  {
+   "fieldname": "column_break_17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "opportunity_amount",
+   "fieldtype": "Currency",
+   "label": "Opportunity Amount",
+   "options": "currency"
+  },
+  {
+   "fieldname": "base_opportunity_amount",
+   "fieldtype": "Currency",
+   "label": "Opportunity Amount (Company Currency)",
+   "options": "Company:company:default_currency",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "more_info",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "More Information",
+   "oldfieldtype": "Section Break",
+   "options": "fa fa-file-text"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "oldfieldname": "company",
+   "oldfieldtype": "Link",
+   "options": "Company",
+   "print_hide": 1,
+   "remember_last_selected_value": 1,
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "depends_on": "eval: doc.source==\"Campaign\"",
+   "description": "Enter name of campaign if source of enquiry is campaign",
+   "fieldname": "campaign",
+   "fieldtype": "Link",
+   "label": "Campaign",
+   "oldfieldname": "campaign",
+   "oldfieldtype": "Link",
+   "options": "Campaign"
+  },
+  {
+   "default": "Today",
+   "fieldname": "transaction_date",
+   "fieldtype": "Date",
+   "label": "Opportunity Date",
+   "oldfieldname": "transaction_date",
+   "oldfieldtype": "Date",
+   "reqd": 1,
+   "width": "50px"
+  },
+  {
+   "fieldname": "column_break1",
+   "fieldtype": "Column Break",
+   "oldfieldtype": "Column Break",
+   "width": "50%"
+  },
+  {
+   "fieldname": "language",
+   "fieldtype": "Link",
+   "label": "Print Language",
+   "options": "Language"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "ignore_user_permissions": 1,
+   "label": "Amended From",
+   "no_copy": 1,
+   "oldfieldname": "amended_from",
+   "oldfieldtype": "Data",
+   "options": "Opportunity",
+   "print_hide": 1,
+   "read_only": 1,
+   "width": "150px"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Title",
+   "no_copy": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "first_response_time",
+   "fieldtype": "Duration",
+   "label": "First Response Time",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:doc.status===\"Lost\"",
+   "fieldname": "lost_detail_section",
+   "fieldtype": "Section Break",
+   "label": "Lost Reasons"
+  },
+  {
+   "depends_on": "eval:doc.status===\"Lost\"",
+   "fieldname": "lost_reasons",
+   "fieldtype": "Table MultiSelect",
+   "label": "Lost Reasons",
+   "options": "Opportunity Lost Reason Detail",
+   "read_only": 1
+  },
+  {
+   "fieldname": "order_lost_reason",
+   "fieldtype": "Small Text",
+   "label": "Detailed Reason",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_56",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "competitors",
+   "fieldtype": "Table MultiSelect",
+   "label": "Competitors",
+   "options": "Competitor Detail",
+   "read_only": 1
+  },
+  {
+   "fieldname": "primary_contact_section",
+   "fieldtype": "Section Break",
+   "label": "Primary Contact"
+  },
+  {
+   "depends_on": "eval:doc.party_name",
+   "fieldname": "contact_person",
+   "fieldtype": "Link",
+   "label": "Contact Person",
+   "options": "Contact",
+   "print_hide": 1
+  },
+  {
+   "fieldname": "job_title",
+   "fieldtype": "Data",
+   "label": "Job Title"
+  },
+  {
+   "fieldname": "column_break_54",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_email",
+   "fieldtype": "Data",
+   "label": "Contact Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "contact_mobile",
+   "fieldtype": "Data",
+   "label": "Contact Mobile",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "column_break_22",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "whatsapp",
+   "fieldtype": "Data",
+   "label": "WhatsApp",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "phone_ext",
+   "fieldtype": "Data",
+   "label": "Phone Ext."
+  },
+  {
+   "fieldname": "address_contact_section",
+   "fieldtype": "Section Break",
+   "label": "Address & Contact"
+  },
+  {
+   "fieldname": "address_html",
+   "fieldtype": "HTML",
+   "label": "Address HTML"
+  },
+  {
+   "depends_on": "eval:doc.party_name",
+   "fieldname": "customer_address",
+   "fieldtype": "Link",
+   "label": "Customer / Lead Address",
+   "options": "Address",
+   "print_hide": 1
+  },
+  {
+   "fieldname": "address_display",
+   "fieldtype": "Small Text",
+   "label": "Address",
+   "oldfieldname": "address",
+   "oldfieldtype": "Small Text",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_html",
+   "fieldtype": "HTML",
+   "label": "Contact HTML"
+  },
+  {
+   "depends_on": "eval:doc.opportunity_from=='Customer' && doc.party_name",
+   "fieldname": "contact_display",
+   "fieldtype": "Small Text",
+   "in_global_search": 1,
+   "label": "Contact",
+   "read_only": 1
+  },
+  {
+   "fieldname": "items_section",
+   "fieldtype": "Tab Break",
+   "label": "Items",
+   "options": "fa fa-shopping-cart"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "RFQ Item"
+  },
+  {
+   "fieldname": "section_break_32",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "fieldname": "base_total",
+   "fieldtype": "Currency",
+   "label": "Total (Company Currency)",
+   "options": "Company:company:default_currency",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_33",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "label": "Total",
+   "options": "currency",
+   "read_only": 1
+  },
+  {
+   "depends_on": "eval:!doc.__islocal",
+   "fieldname": "activities_tab",
+   "fieldtype": "Tab Break",
+   "label": "Tasks"
+  },
+  {
+   "fieldname": "open_activities_html",
+   "fieldtype": "HTML",
+   "label": "Open Activities HTML"
+  },
+  {
+   "fieldname": "all_activities_section",
+   "fieldtype": "Section Break",
+   "label": "All Activities"
+  },
+  {
+   "fieldname": "all_activities_html",
+   "fieldtype": "HTML",
+   "label": "All Activities HTML"
+  },
+  {
+   "depends_on": "eval:!doc.__islocal",
+   "fieldname": "notes_tab",
+   "fieldtype": "Tab Break",
+   "hidden": 1,
+   "label": "Comments"
+  },
+  {
+   "fieldname": "notes_html",
+   "fieldtype": "HTML",
+   "label": "Notes HTML"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Table",
+   "hidden": 1,
+   "label": "Notes",
+   "no_copy": 1,
+   "options": "CRM Note"
+  },
+  {
+   "depends_on": "eval:!doc.__islocal",
+   "fieldname": "dashboard_tab",
+   "fieldtype": "Tab Break",
+   "label": "Connections",
+   "show_dashboard": 1
+  },
+  {
+   "fieldname": "business_line_page",
+   "fieldtype": "Tab Break",
+   "hidden": 1,
+   "label": "Business line page"
+  },
+  {
+   "fieldname": "deal_open",
+   "fieldtype": "Section Break",
+   "label": "Deal Opening & Evaluation \t\t\t\t\t\t\t\t\t\t\t\t"
+  },
+  {
+   "fieldname": "date_",
+   "fieldtype": "Date",
+   "label": "Recived Date : "
+  },
+  {
+   "fieldname": "sc_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acount_manager_name",
+   "fieldtype": "Link",
+   "label": "Acount Manager Name :\t\t",
+   "options": "Sales Partner"
+  },
+  {
+   "fieldname": "sb_1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "customer_details",
+   "fieldtype": "Section Break",
+   "label": "Customer Details\t"
+  },
+  {
+   "fieldname": "customer_nam",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Customer Name :",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Customer H.O Location "
+  },
+  {
+   "fieldname": "scope",
+   "fieldtype": "Data",
+   "label": "Work & Scope Locations"
+  },
+  {
+   "fieldname": "size",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Customer Sector & Size "
+  },
+  {
+   "fieldname": "sc_2",
+   "fieldtype": "Column Break",
+   "hidden": 1
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "End User:"
+  },
+  {
+   "fieldname": "business",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Customer Business"
+  },
+  {
+   "fieldname": "relation",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Curent relation with customer \t\t"
+  },
+  {
+   "fieldname": "commercial_contact",
+   "fieldtype": "Section Break",
+   "label": "Commercial contact"
+  },
+  {
+   "fieldname": "n",
+   "fieldtype": "Data",
+   "label": "Name:"
+  },
+  {
+   "fieldname": "co",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "e",
+   "fieldtype": "Data",
+   "label": "Email :"
+  },
+  {
+   "fieldname": "co_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "p",
+   "fieldtype": "Data",
+   "label": "Phone: "
+  },
+  {
+   "fieldname": "technical_contact",
+   "fieldtype": "Section Break",
+   "label": "Technical Contact "
+  },
+  {
+   "fieldname": "nn",
+   "fieldtype": "Data",
+   "label": "Name:"
+  },
+  {
+   "fieldname": "co_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ee",
+   "fieldtype": "Data",
+   "label": "Email :"
+  },
+  {
+   "fieldname": "co_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pp",
+   "fieldtype": "Data",
+   "label": "Phone: "
+  },
+  {
+   "fieldname": "currenc",
+   "fieldtype": "Currency",
+   "hidden": 1,
+   "label": "Customer Budget "
+  },
+  {
+   "fieldname": "t_r",
+   "fieldtype": "Tab Break",
+   "label": "Tracking record"
+  },
+  {
+   "fieldname": "tracking_record",
+   "fieldtype": "Table",
+   "label": "Tracking record",
+   "options": "Tracking Record"
+  },
+  {
+   "default": "Licenses & Subscriptions",
+   "fieldname": "rfq_type",
+   "fieldtype": "Select",
+   "label": "RFQ Type",
+   "options": "Licenses & Subscriptions\nHardware\nProjects\nManaged Services and Support\nAdvisory and Consultancy\nUndefine\nMulti Product"
+  },
+  {
+   "depends_on": "eval: doc.rfp == \"1\"",
+   "fieldname": "go_tab",
+   "fieldtype": "Tab Break",
+   "label": "Go / No Go Criteria"
+  },
+  {
+   "default": "0",
+   "fieldname": "test_1",
+   "fieldtype": "Float",
+   "label": "test"
+  },
+  {
+   "depends_on": "eval: doc.test_1 >= \"10\"",
+   "fieldname": "proposals",
+   "fieldtype": "Tab Break",
+   "label": "Proposals"
+  },
+  {
+   "fieldname": "technical_offer",
+   "fieldtype": "Attach",
+   "label": "technical offer"
+  },
+  {
+   "fieldname": "commercial_offer",
+   "fieldtype": "Attach",
+   "label": "commercial offer"
+  },
+  {
+   "fieldname": "deadlines",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Deadlines:\u00a0"
+  },
+  {
+   "fieldname": "q1",
+   "fieldtype": "Heading",
+   "label": "Do we have more than 2 weeks to reply to the RFP?"
+  },
+  {
+   "fieldname": "c1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_1",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "q2",
+   "fieldtype": "Heading",
+   "label": "Did we ask for an extension and it was awarded ?"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_2",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "c2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "q__1",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "q__2",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "tota",
+   "fieldtype": "Section Break",
+   "label": "Total"
+  },
+  {
+   "fieldname": "account_value",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Account Value "
+  },
+  {
+   "fieldname": "q3",
+   "fieldtype": "Heading",
+   "label": "is this a strategic account or Key target account"
+  },
+  {
+   "fieldname": "q4",
+   "fieldtype": "Heading",
+   "label": "will responding helps our access, visibility and a chance for future work. "
+  },
+  {
+   "fieldname": "c3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_3",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_4",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "c4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "q__3",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "q__4",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "advanced_warnings",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Advanced Warnings"
+  },
+  {
+   "fieldname": "q5",
+   "fieldtype": "Heading",
+   "label": "Did we know about this before it came out? "
+  },
+  {
+   "fieldname": "q6",
+   "fieldtype": "Heading",
+   "label": "Did we work on the RFP and qualified the need of the client?"
+  },
+  {
+   "fieldname": "q7",
+   "fieldtype": "Heading",
+   "label": "Have we been tracking the release of the RFP or did this show up blind, likely written by a competitor?"
+  },
+  {
+   "fieldname": "c5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_5",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_6",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_7",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "c6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "q__5",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "q__6",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "q__7",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "decision_makers",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Decision Makers:\u00a0"
+  },
+  {
+   "fieldname": "q8",
+   "fieldtype": "Heading",
+   "label": "Do we know any or all the decision makers? "
+  },
+  {
+   "fieldname": "q9",
+   "fieldtype": "Heading",
+   "label": "Have we mapped the account and do we have access or relationships to any of the people making the decision ?"
+  },
+  {
+   "fieldname": "c7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "c8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "discovery_process",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Discovery process:\u00a0"
+  },
+  {
+   "fieldname": "q10",
+   "fieldtype": "Heading",
+   "label": "Is there an opportunity for discovery and dialogue other than formal Q&A process? "
+  },
+  {
+   "fieldname": "q11",
+   "fieldtype": "Heading",
+   "label": "Will they give us the opportunity to qualify further, ask questions and have a dialogued with those who will make the decision ?"
+  },
+  {
+   "fieldname": "c9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_10",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_11",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "c10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "q__10",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "q__11",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "fit",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "FIT"
+  },
+  {
+   "fieldname": "q12",
+   "fieldtype": "Heading",
+   "label": "Have we done a similar project before and do you have the references to show for it?"
+  },
+  {
+   "fieldname": "c11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_12",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "c12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "q__12",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "competition",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Competition"
+  },
+  {
+   "fieldname": "q13",
+   "fieldtype": "Heading",
+   "label": "Do we know who we are competing with and  what are the skills and pricing of the competition ? "
+  },
+  {
+   "fieldname": "q14",
+   "fieldtype": "Heading",
+   "label": "If not, are we able to find out who else is competing and is there an incumbent?\u00a0 "
+  },
+  {
+   "fieldname": "q15",
+   "fieldtype": "Heading",
+   "label": "Do we have any advocates or coaches who can help us understand the playing field internally at the client"
+  },
+  {
+   "fieldname": "q16",
+   "fieldtype": "Heading",
+   "label": "Have we beaten any of these competitors in the past?"
+  },
+  {
+   "fieldname": "c20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_13",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_14",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_15",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_16",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "c13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "q__13",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "q__14",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "q__15",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "q__16",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "decision_criteria",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Decision criteria:\u00a0"
+  },
+  {
+   "fieldname": "q17",
+   "fieldtype": "Heading",
+   "label": "Do we know the decision criteria, and will we score well?\u00a0 "
+  },
+  {
+   "fieldname": "q18",
+   "fieldtype": "Heading",
+   "label": "will we come out ahead of the known or presumed competition?"
+  },
+  {
+   "fieldname": "c14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_17",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_18",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "c15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "q__17",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "q__18",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "red_flags",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Red Flags"
+  },
+  {
+   "fieldname": "q19",
+   "fieldtype": "Heading",
+   "label": "We did not spot any competitor language or obscure requirements? "
+  },
+  {
+   "fieldname": "c16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_19",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "c17",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "q__19",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "solution_presentation",
+   "fieldtype": "Section Break",
+   "hidden": 1,
+   "label": "Solution Presentation:\u00a0"
+  },
+  {
+   "fieldname": "q20",
+   "fieldtype": "Heading",
+   "label": "Will we be able to present our response in person?"
+  },
+  {
+   "fieldname": "q21",
+   "fieldtype": "Heading",
+   "label": "will we have an opportunity to present and truly \u201csell\u201d our solution? "
+  },
+  {
+   "fieldname": "c18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_20",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_21",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "c19",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "q__20",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "q__21",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "sc23",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sc24",
+   "fieldtype": "Section Break",
+   "label": "RFQ Details :\t\t\t\t\t\t\t\t\t\t\t\t"
+  },
+  {
+   "fieldname": "rfq_no",
+   "fieldtype": "Data",
+   "label": "RFQ NO."
+  },
+  {
+   "fieldname": "txt1",
+   "fieldtype": "Data",
+   "label": "RFQ Received way:"
+  },
+  {
+   "fieldname": "txt2",
+   "fieldtype": "Date",
+   "label": "RFQ X-Meeting Date :"
+  },
+  {
+   "fieldname": "txt3",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Solution required "
+  },
+  {
+   "fieldname": "txt4",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Brands Required :"
+  },
+  {
+   "fieldname": "txt5",
+   "fieldtype": "Data",
+   "label": "Vendor & supplier need :"
+  },
+  {
+   "fieldname": "txt6",
+   "fieldtype": "Data",
+   "label": "Need Subcontractor :"
+  },
+  {
+   "fieldname": "txt7",
+   "fieldtype": "Data",
+   "label": "last  Date Questions & Answer"
+  },
+  {
+   "fieldname": "col12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "txt8",
+   "fieldtype": "Data",
+   "label": "RFQ or Bid Type :"
+  },
+  {
+   "fieldname": "txt9",
+   "fieldtype": "Date",
+   "label": "RFQ Received date :"
+  },
+  {
+   "fieldname": "txt10",
+   "fieldtype": "Data",
+   "label": "RFQ Pre qualification:  "
+  },
+  {
+   "fieldname": "txt11",
+   "fieldtype": "Date",
+   "label": "Site Survey  date :"
+  },
+  {
+   "fieldname": "txt12",
+   "fieldtype": "Data",
+   "label": "Services Required :"
+  },
+  {
+   "fieldname": "txt13",
+   "fieldtype": "Data",
+   "label": "Recommended: "
+  },
+  {
+   "fieldname": "txt14",
+   "fieldtype": "Data",
+   "label": "Send To : "
+  },
+  {
+   "fieldname": "txt15",
+   "fieldtype": "Data",
+   "label": "Location:"
+  },
+  {
+   "fieldname": "col13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "txt16",
+   "fieldtype": "Percent",
+   "label": "General Percentage to win "
+  },
+  {
+   "fieldname": "txt17",
+   "fieldtype": "Data",
+   "label": "Competitors :"
+  },
+  {
+   "fieldname": "txt18",
+   "fieldtype": "Data",
+   "label": "Need Bank Guaranty "
+  },
+  {
+   "fieldname": "txt19",
+   "fieldtype": "Data",
+   "label": " Need for Proposal :"
+  },
+  {
+   "fieldname": "txt20",
+   "fieldtype": "Data",
+   "label": "Separate Technical:"
+  },
+  {
+   "fieldname": "txt21",
+   "fieldtype": "Data",
+   "label": "Customer Budget "
+  },
+  {
+   "fieldname": "txt22",
+   "fieldtype": "Data",
+   "label": "Separate Commercial:"
+  },
+  {
+   "fieldname": "txt23",
+   "fieldtype": "Data",
+   "label": "One Proposal :"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_8",
+   "fieldtype": "Check"
+  },
+  {
+   "default": "0",
+   "fieldname": "q_9",
+   "fieldtype": "Check"
+  },
+  {
+   "fieldname": "q__8",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "q__9",
+   "fieldtype": "Float"
+  },
+  {
+   "fieldname": "quotation",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Quotation",
+   "options": "Quotation"
+  },
+  {
+   "default": "0",
+   "fieldname": "rfp",
+   "fieldtype": "Check",
+   "label": "Request For Proposal"
+  },
+  {
+   "fieldname": "rfq_cat",
+   "fieldtype": "Select",
+   "label": "RFQ Source",
+   "options": "ETIMAD\nSAP ARABIA\nFURSA\nBY MAIL/FAX\nGeneral Lead\nConnections"
+  },
+  {
+   "fieldname": "bd_cl_dt",
+   "fieldtype": "Date",
+   "label": "Bid Closing Date "
+  },
+  {
+   "default": "0",
+   "fieldname": "in_the_pipline",
+   "fieldtype": "Check",
+   "label": "In The Pipline"
+  },
+  {
+   "fieldname": "opportunity_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Opportunity Name "
+  },
+  {
+   "default": "0",
+   "fieldname": "gn_stage",
+   "fieldtype": "Check",
+   "label": "GN stage\u00a0"
+  },
+  {
+   "fieldname": "go_no",
+   "fieldtype": "Select",
+   "label": "Go/No Go",
+   "options": "\nGo\nNo GO"
+  },
+  {
+   "fieldname": "column_break_be1tl",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "icon": "fa fa-info-sign",
+ "links": [
+  {
+   "group": "Quotation",
+   "link_doctype": "Quotation",
+   "link_fieldname": "rfq"
+  }
+ ],
+ "modified": "2023-10-09 00:15:16.844320",
+ "modified_by": "Administrator",
+ "module": "aramys",
+ "name": "RFQ",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "import": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "status,transaction_date,party_name,opportunity_type,territory,company",
+ "sender_field": "contact_email",
+ "show_name_in_global_search": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "subject_field": "title",
+ "timeline_field": "party_name",
+ "title_field": "title",
+ "track_changes": 1,
+ "track_seen": 1
+}

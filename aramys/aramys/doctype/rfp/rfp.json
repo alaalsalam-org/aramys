@@ -1,0 +1,200 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-07-24 02:57:30.908134",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tit1",
+  "amended_from",
+  "sc",
+  "date1",
+  "column_break_pcqwm",
+  "naming_series",
+  "section_break_qn2bw",
+  "tit2",
+  "tit3",
+  "se1",
+  "col",
+  "se2",
+  "sc2",
+  "sm1",
+  "details",
+  "section_break_do5cj",
+  "total_invoice",
+  "column_break_lrfik",
+  "vat",
+  "column_break_r8oux",
+  "total_cost"
+ ],
+ "fields": [
+  {
+   "fieldname": "tit1",
+   "fieldtype": "Heading",
+   "label": "REQUEST FOR PAYMENT"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "RFP",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "default": "Today",
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "label": "RFP Date :-"
+  },
+  {
+   "fieldname": "column_break_pcqwm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_qn2bw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "tit2",
+   "fieldtype": "Heading",
+   "label": "Internal Classification "
+  },
+  {
+   "fieldname": "tit3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "se1",
+   "fieldtype": "Select",
+   "label": "HQ/Project",
+   "options": "HQ Ex\nProject Ex"
+  },
+  {
+   "fieldname": "col",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "se2",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "HR Em\nPetty Cash\nGOV Ex\nTender Fee/Project Supplier"
+  },
+  {
+   "fieldname": "sc2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "sm1",
+   "fieldtype": "Small Text",
+   "label": "Justification :-"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Table",
+   "options": "REF Details"
+  },
+  {
+   "fieldname": "section_break_do5cj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_invoice",
+   "fieldtype": "Currency",
+   "label": "Total Invoice"
+  },
+  {
+   "fieldname": "column_break_lrfik",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "vat",
+   "fieldtype": "Currency",
+   "label": "Vat"
+  },
+  {
+   "fieldname": "column_break_r8oux",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_cost",
+   "fieldtype": "Currency",
+   "label": "Total Cost"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "RFP REF :-",
+   "options": "ACC-RFP-.YYYY.-"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-13 00:31:40.004249",
+ "modified_by": "Administrator",
+ "module": "aramys",
+ "name": "RFP",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
